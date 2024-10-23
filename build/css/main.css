@@ -180,17 +180,11 @@ body {
   margin: auto;
 }
 
-@media screen and (min-width: 1080px) {
-  body {
-    background-color: rgb(195, 206, 198);
-  }
-}
-
 /***********************************Form login*********************************/
 .container {
   max-width: 100vw;
   min-height: 100vh;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   display: flex;
   overflow: hidden;
 }
@@ -232,7 +226,7 @@ body {
   outline: none;
   border: none;
   border-radius: 10rem;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   font-size: 1.6rem;
 }
 .container .content .input-box .input-control:focus {
@@ -242,7 +236,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.container .content .rm-box .remember-me, .container .content .rm-box .forgot-password {
+.container .content .rm-box .remember-me,
+.container .content .rm-box .forgot-password {
   margin-top: 1.5rem;
 }
 .container .content .input-submit {
@@ -258,7 +253,8 @@ body {
   cursor: pointer;
   background-color: rgb(179, 4, 71);
 }
-.container .content .login-cta, .container .content .sign-up-cta {
+.container .content .login-cta,
+.container .content .sign-up-cta {
   text-align: center;
   margin-top: 2rem;
 }

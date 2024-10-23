@@ -1,3 +1,5 @@
+<?php $currentPage = 'Password Recovery'; ?>
+
 <?php include 'layout/header.php'; ?>
 
 

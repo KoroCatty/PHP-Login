@@ -1,3 +1,7 @@
+<?php $currentPage = 'login'; ?>
+
+
+
 <?php include 'layout/header.php'; ?>
 
     <div class="container">
@@ -19,7 +23,7 @@
                         <input type="checkbox" id="remember-me" class="remember-me" name="remember-me">
                         <label for="remember-me">Remember me</label>
                     </div>
-                    <a href="forgot_password.html" class="forgot-password">Forgot password?</a>
+                    <a href="forgot_password.php" class="forgot-password">Forgot password?</a>
                 </div>
                 <div class="g-recaptcha" data-sitekey="<?php echo $public_key;?>"></div>
                 <div class="input-box">
