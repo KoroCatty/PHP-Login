@@ -10,12 +10,13 @@
         <?php
         // 送信ボタンがクリックされた場合
         if (isset($_POST['sign-up'])) {
-            $first_name = $_POST['first_name'];
-            $last_name = $_POST['last_name'];
-            $user_name = $_POST['user_name'];
-            $user_email = $_POST['user_email'];
-            $user_password = $_POST['user_password'];
-            $user_confirm_password = $_POST['user_confirm_password'];
+            // functions.php で定義した escape 関数を使い、xss 対策を行う
+            $first_name = escape($_POST['first_name']);
+            $last_name = escape($_POST['last_name']);
+            $user_name = escape($_POST['user_name']);
+            $user_email = escape($_POST['user_email']);
+            $user_password = escape($_POST['user_password']);
+            $user_confirm_password = escape($_POST['user_confirm_password']);
 
             // フォームの入力値を表示
             echo $first_name . '<br>';

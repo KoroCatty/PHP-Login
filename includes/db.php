@@ -6,7 +6,7 @@ $connection = new mysqli('localhost', 'root', 'root', 'login');
 if ($connection->connect_error) {
   die('Could not connect: ' . $connection->connect_error);
 } else {
-  // echo 'Connected successfully';
+  echo 'Connected successfully';
 }
 
 
